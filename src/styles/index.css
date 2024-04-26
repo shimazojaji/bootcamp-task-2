@@ -136,13 +136,15 @@ body {
   font-size: 1rem;
 }
 
-.transaction__price,.transaction__date{
+.transaction__price,
+.transaction__date {
   display: flex;
   align-items: center;
   gap: 0.25rem;
 }
 
-.transaction__price > svg ,.transaction__date > svg {
+.transaction__price > svg,
+.transaction__date > svg {
   display: flex;
   width: 10px;
   height: 10px;
@@ -246,7 +248,8 @@ body {
     font-size: 1.5rem;
   }
 
-  .transaction__price > svg ,.transaction__date > svg {
+  .transaction__price > svg,
+  .transaction__date > svg {
     display: flex;
     width: 15px;
     height: 15px;
